@@ -1,0 +1,21 @@
+{
+  "name": "layoutsncontrollersejs",
+  "version": "1.0.0",
+  "description": "layouts and controllers hw lesson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ejs",
+    "layouts",
+    "controllers"
+  ],
+  "author": "sameghosts",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  }
+}
