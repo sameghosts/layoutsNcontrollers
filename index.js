@@ -8,7 +8,7 @@ APP.set('view engine', 'ejs');
 //ejs layouts
 APP.use(EJSLAYOUTS);
 APP.use('/loveit', require('./controllers/loveit'));
-APP.use('/leaveit', require('.controllers/leaveit'));
+APP.use('/leaveit', require('./controllers/leaveit'));
 
 //home route
 APP.get('/', (req, res) => {
